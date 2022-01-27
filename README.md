@@ -8,7 +8,7 @@ Vite + TailwindCSS is a blank starter theme for WinterCMS powered by [Vite](http
 - use Vite for your frontend's assets
 - TailwindCSS 3 ready
 - crazy fast with a tiny node_modules folder
-- browser autoload with hot module replacement
+- browser autoreload with hot module replacement
 - PostCSS ready with the following plugins:
     - postcss-import
     - tailwindcss-nesting
