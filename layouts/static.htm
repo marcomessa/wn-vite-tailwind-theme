@@ -1,0 +1,18 @@
+[headAssets]
+
+==
+{variable name="sections" type="repeater" prompt="Add another section" tab="Contenuto Extra"
+groups="$/mmes/cameraarbitrale/staticpages/repeater_fields.yaml"}{/variable}
+<!doctype html>
+<html lang="it">
+    {% partial 'shared/head' %}
+<body class="font-sans bg-gray-100">
+    {% partial 'shared/header' %}
+
+    {% for section in sections %}
+        {% partial 'staticblocks/' ~ section._group section=section %}
+    {% endfor %}
+
+    {% partial 'shared/footer' %}
+</body>
+</html>

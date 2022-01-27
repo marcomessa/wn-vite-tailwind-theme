@@ -1,0 +1,22 @@
+{% set imageLeft = section.image_position == 'left' %}
+<div class="section-simple_text mt-10 md:mt-20">
+    <div class="container">
+        <div class="flex flex-wrap -mx-4 overflow-hidden">
+            <div class="w-full {{ imageLeft ? 'justify-end'}} flex">
+                <div class="w-full md:w-1/2 px-4">
+                    <h2 class="text-5xl uppercase font-serif pb-5 border-b border-black leading-none">
+                        {{ section.title }}
+                    </h2>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 px-4 {{ imageLeft ? 'md:order-2' }}">
+                <div class="prose prose max-w-none mt-5">
+                    {{ section.text|raw }}
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 px-4 flex items-center mt-5 md:mt-0 {{ not imageLeft ? 'justify-end'}} {{ imageLeft ? 'md:order-1' }}">
+                <img class="w-full md:w-4/5" src="{{ section.image|media }}" alt="{{ section.title }}">
+            </div>
+        </div>
+    </div>
+</div>
