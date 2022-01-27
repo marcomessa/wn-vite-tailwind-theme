@@ -19,7 +19,7 @@ In order to work, the theme needs its sister plugin [**Vite**](https://github.co
 
 ## Installation
 1. require the theme: `composer require marcomessa/wn-vite-tailwind-theme`
-2. require the plugin: `composer require marcomessa/wn-vite-tailwind-plugin`
+2. require the plugin: `composer require marcomessa/wn-vite-plugin`
 3. be sure plugin is installed: `php artisan plugin:refresh Marcomessa.Vite`
 4. navigate to theme's folder: `cd <project-root>/themes/vite-tailwind`
 5. install dependencies: `npm install` or `yarn install`
