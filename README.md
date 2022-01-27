@@ -1,6 +1,6 @@
 # Vite + TailwindCSS WinterCMS starter theme
 
-![alt text](https://github.com/marcomessa/wintercms-vite-tailwind-theme/blob/main/vite-theme.jpg?raw=true)
+![alt text](https://github.com/marcomessa/wn-vite-tailwind-theme/blob/main/vite-theme.jpg?raw=true)
 
 Vite + TailwindCSS is a blank starter theme for WinterCMS powered by [Vite](https://vitejs.dev/) and [TailwindCSS](https://tailwindcss.com/). It includes a simple folder structure, postcss files already divided according to TailwindCSS directives and two npm scripts for development and production.
 
